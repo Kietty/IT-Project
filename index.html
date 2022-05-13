@@ -1,84 +1,192 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>HTML is hard</title>
-</head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-<body style="background-color:powderblue;">
+body {font-family: "Lato", sans-serif}
+p {text-align: center;}
+.mySlides {display: none}
 </style>
-  <meta charset="UTF-8">
-  <meta name="description" content="This is our group project">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="Everyone in this group">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+</head>
 <body>
 
-<h1 style="text-align: center;"><span style="background-color: #333399; color: #ffffff;"><strong>Group Name</strong></span></h1>
-<h2 style="text-align: center;"><span style="text-decoration: underline; color: #333399;"> <strong>Personal Information</strong></span></h2>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INFORMATION</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROCESSES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CAREER</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
 
-<p><strong>Huynh Phan Anh</strong></p>
-<p style="padding-left: 40px;">My name is Anh, my id is s3891735
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">GROUP NAME</h2>
+    <p class="w3-opacity"><i>Everything you need to know!</i></p>
+    <p class="w3-justify">GROUP NAME has five members being: "Trong Nhan", "Duy Anh", "Phan Anh", "Tan Tan", "Lee Sunjin". And welcome to our website for our group project. It consists of three sections Information, Process, Career about our group. Our project is a platformer video game worked in Unity, we use basic controls to pass through an obstacle course. We hope you enjoy your visit here!</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Trong Nhan</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      
+      <div class="w3-third">
+        <p>Duy Anh</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      
+      <div class="w3-third">
+        <p>Phan Anh</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      
+      <div class="w3-third">
+        <p>Tan Tan</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      
+      <div class="w3-third">
+
+        <img src="" class="w3-round w3-margin-bottom"  style="width:60%">
+      </div>
+      
+      <div class="w3-third">
+        <p>Lee Sunjin</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">ABOUT US</h2>
+    <p style="font-size:25px">Nguyen Minh Trong Nhan</p>
+    <p class="w3-justify"> &nbsp; &nbsp; &nbsp; My name is Nhan and S3924462 is my student number, I'm currently a first-year student in RMIT university. I chose IT as my main course because during high school, one of my teacher recommended IT to me after doing a personality test. However, the test wasn't the only reason i chose IT as my major but I also did my own research on various majors and topics and picking my final verdict on IT. As of why I chose RMIT as my university and not other schools, simply because i already have a brother who studied here in RMIT and is currently an allumni.
+  Other than video games and some Youtube videos. It to me is a completely new world, and I want learn this experience as much as possible before i graduate.</p>
+  
+  <p style="font-size:25px">Huynh Phan Anh</p>
+    <p class="w3-justify"> &nbsp; &nbsp; &nbsp; My name is Anh, my id is s3891735
 I'm grateful to say that I'm very enthusiatic about technology, and this is a great chance for me here at Rmit to get a rigid 
 cover about how it works and how can I practically get involve in relevant issue and resolving problem using technical technique.
 Moreover, this is my opportunity here at RMIT to settle everything down and construct a certain level of knowledge of what I love. 
 In addition, it's going to be useful as I have a few of hand-on experienced in such as python, JS, C++, HTML,... and they are not 
 going to be waste here as I'm going to need it as my team does. That's it for now, hopefully in the long run ahead I would love to seek
-out great chance as in cooperation and study.
-</p>
-
-<p><strong>Nguyen Tan Tan</strong></p>
-<p style="padding-left: 40px;">My name is Nguyen Tan Tan, student number is s3956465. I was born and raised in Vietnam. Technology has always fascinates me to some extent which is why i chose IT as my major. I've never had any experienced with programming nor am i good with computers. With that being said, i don't mind learning all those skills from scratch. Especially when those skills can earn me a lot of money.  </p>
-
-<p><strong>Mai Tran Duy Anh</strong></p>
-<p style="padding-left: 40px;">Let me begin by introducing myself, Mai Tran Duy Anh is my complete name, and when I meet new people or travel overseas, I introduce myself as Dylan. I was born and raised in Vietnam. After finishing a semester here at RMIT, I found out that communicating is crucial, so you may contact me via my educational email address is s3926247@rmit.edu.vn if you have any questions concerning my studies. Currently, I am pursuing a bachelor's degree in Information Technology from RMIT University in order to land a decent career related to my field of interest. In addition to studying and working to accomplish my dream, I also enjoy games, particularly online games where there is a community of people who share my interests. As a result, my ambition is to build an online game that draws a large number of players, and in order to accomplish so, I've begun studying MySQL and Unity even knowing that my expertise is disorganized and limited, like a grain of sand among a desert of computer languages.</p>
-
-<p><strong>Sunjin Lee</strong></p>
-<p style="padding-left: 40px;">My name is Lee Sunjin and my student number is S3911760, I am a first-semester freshman. To be honest, I haven't discovered a major that fascinates me, but after much search and contemplation, I decided on IT as a major at RMIT University. This is not to say that I chose this major only on the basis of its potential; rather, I discovered that the characteristics of a developer or programmer fit my personality.</p>
-
-<p><strong>Nguyen Minh Trong Nhan</strong></p>
-<p style="padding-left: 40px;">My name is Nhan and S3924462 is my student number, I'm currently a first-year student in RMIT university. I chose IT as my main course because during high school, one of my teacher recommended IT to me after doing a personality test. However, the test wasn't the only reason i chose IT as my major but I also did my own research on various majors and topics and picking my final verdict on IT. As of why I chose RMIT as my university and not other schools, simply because i already have a brother who studied here in RMIT and is currently an allumni.
-  Other than video games and some Youtube videos. It to me is a completely new world, and I want learn this experience as much as possible before i graduate.</p>
- 
-<h2 style="text-align: center;"><span style="text-decoration: underline;"><span style="color: #000080; text-decoration: underline;">Group Processes</span></span></h2>
-
-<p><strong>Week 1-2 (25/4 to 2/5):</strong></p>
-<ul>
-<li>Discussed roles for each member of the group&nbsp;</li>
-<li>Created a suitable group name</li>
-<li>Finalize the project's idea to be a platformer game on Unity</li>
-<li>Tan and Sunjin begins to work on the project</li>
-<li>The remaining members focus on the PDF report</li>
-</ul>
-<p><strong>Week 3-4 (2/5 to 16/5):</strong></p>
-<ul>
-<li>Tan and Sunjin continue working on the project</li>
-<li>Group's website and report are in the finalization stage</li>
-<li>Everyone begins to work on the presentation and their drafts</li>
-<li>Final checks before submitting</li>
-<li>Submitting the work to Canvas</li>
-</ul>
-<p><strong>Final verdict</strong></p>
-<p style="padding-left: 40px;">I need help filling this one :(</p>
-
-<h2 style="text-align: center;"><span style="text-decoration: underline;"><span style="color: #000080; text-decoration: underline;">Career Plans</span></span></h2>
-
-<p><strong>Huynh Phan Anh</strong></p>
-<p style="padding-left: 40px;">Write here!</p>
-
-<p><strong>Nguyen Tan Tan</strong></p>
-<p style="padding-left: 40px;">Write here!</p>
-
-<p><strong>Mai Tran Duy Anh</strong></p>
-<p style="padding-left: 40px;">Write here!</p>
-
-<p><strong>Sunjin Lee</strong></p>
-<p style="padding-left: 40px;">Write here!</p>
-
-<p><strong>Nguyen Minh Trong Nhan</strong></p>
-<p style="padding-left: 40px;">Being a first year, I haven't thought much about my future. Although I have a rough draft about being an robotics engineer to help my family's business, or being a game dev to sastify my own curiousity and imagination I had as a kid.
-  </p>
+out great chance as in cooperation and study.</p>
   
-  <p><strong>Group's comparison</strong></p>
-<p style="padding-left: 40px;">Write here!</p>
-</body>
+  <p style="font-size:25px">Mai Tran Duy Anh</p>
+    <p class="w3-justify"> &nbsp; &nbsp; &nbsp; Let me begin by introducing myself, Mai Tran Duy Anh is my complete name, and when I meet new people or travel overseas, I introduce myself as Dylan. I was born and raised in Vietnam. After finishing a semester here at RMIT, I found out that communicating is crucial, so you may contact me via my educational email address is s3926247@rmit.edu.vn if you have any questions concerning my studies. Currently, I am pursuing a bachelor's degree in Information Technology from RMIT University in order to land a decent career related to my field of interest. In addition to studying and working to accomplish my dream, I also enjoy games, particularly online games where there is a community of people who share my interests. As a result, my ambition is to build an online game that draws a large number of players, and in order to accomplish so, I've begun studying MySQL and Unity even knowing that my expertise is disorganized and limited, like a grain of sand among a desert of computer languages.</p>
+  
+  <p style="font-size:25px">Nguyen Tan Tan</p>
+    <p class="w3-justify"> &nbsp; &nbsp; &nbsp; My name is Nguyen Tan Tan, student number is s3956465. I was born and raised in Vietnam. Technology has always fascinates me to some extent which is why i chose IT as my major. I've never had any experienced with programming nor am i good with computers. With that being said, i don't mind learning all those skills from scratch. Especially when those skills can earn me a lot of money.</p>
+  
+  <p style="font-size:25px">Lee Sunjin</p>
+    <p class="w3-justify"> &nbsp; &nbsp; &nbsp; My name is Lee Sunjin and my student number is S3911760, I am a first-semester freshman. To be honest, I haven't discovered a major that fascinates me, but after much search and contemplation, I decided on IT as a major at RMIT University. This is not to say that I chose this major only on the basis of its potential; rather, I discovered that the characteristics of a developer or programmer fit my personality.</p>
+    </div>
+  
+    </div>
+  </div>
 
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PROCESSES</h2>
+      <p class="w3-opacity w3-center"><i>The story of our project!</i></p><br>
+
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src=https://jobsgo.vn/blog/wp-content/uploads/2019/08/teamwork-la-gi.jpg alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Week 1-2</b></p>
+            <p class="w3-opacity">25 Apr to 2 May</p>
+            <p>Roles, group name and project ideas finalized. Everyone begins to work on their individual roles while still helping eachother when needed.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://jobsgo.vn/blog/wp-content/uploads/2019/08/The-Modern-Rules-for-Teamwork-in-the-Workplace.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Week 3-4</b></p>
+            <p class="w3-opacity">2 May to 16 May</p>
+            <p>Project is still being worked on!
+            <br>Websites and report are being finished
+            <br>Everyone prepares the presentation and their draft</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src=https://hocielts.vn/wp-content/uploads/Writing-a-conclusion.jpg alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Conclusion</b></p>
+            <p class="w3-opacity">In Summary</p>
+            <p>Everyone worked well with each other and make sure to help when another in need, despite having different roles.
+            <br></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CAREER</h2>
+    <p class="w3-opacity w3-center"><i>Everyone has a dream!</i></p>
+    <div class="w3-row w3-padding-32">
+    <p>When it comes to ambition, everyone in our group has their own individual dream they want to pursue. One wanted to create a video game for people to enjoy, others want a stable career or a job that fits their interests. Even with different goals, we all share our love and fascinations for IT and wanted to gain more knowledge on the subject. We chose our roles to fit the dream that we chose to help us being one step closer to our future goals.
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
